@@ -1,6 +1,6 @@
 {
-  "name": "XBOT REMIX",
-  "description": "[XBOT-REMIX] A modular Telegram userbot running on Python 3.7+ with an sqlalchemy database, which can be coupled up with Mongo DB and a Redis backend",
+  "name": "XMOD REMIX",
+  "description": "[XMOD-REMIX] A modular Telegram userbot running on Python 3.7+ with an sqlalchemy database, which can be coupled up with Mongo DB and a Redis backend",
   "logo": "https://telegra.ph/file/a4caae362380bc00508b0.jpg",
   "keywords": [
     "telegram",
