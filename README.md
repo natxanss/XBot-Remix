@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="XMOD VERSION" src="https://img.shields.io/badge/XBOT%20VERSION-4.+-brightgreen"/>
+    <img alt="XMOD VERSION" src="https://img.shields.io/badge/XMOD%20VERSION-4.+-brightgreen"/>
     <img alt="BUILD IN" src="https://img.shields.io/badge/BUILD%20-Last Day-brightgreen"/>
     <a href="https://travis-ci.com/X-Newbie/XBot-Remix.svg?branch=x-sql-extended" /></a>
     <a href="https://app.codacy.com/gh/X-Newbie/XBot-Remix/dashboard"> <img src="https://img.shields.io/codacy/grade/a8f0747a964e4712818a28d2a7f4edd3?color=blue&logo=codacy&style=for-the-badge" alt="Codacy" /></a>
