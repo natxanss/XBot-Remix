@@ -27,7 +27,7 @@ for module_name in ALL_MODULES:
 
 
 LOGS.info(
-    f"🔥 XBOT-REMIX 🔥 V{BOT_VER} [SUCCESSFUL ACTIVATED! ⚙️]"
+    f"🔥 XMOD-REMIX 🔥 V{BOT_VER} [SUCCESSFUL ACTIVATED! ⚙️]"
     "`Mod By :` *@skuyxans*")
 
 
