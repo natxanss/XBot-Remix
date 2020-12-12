@@ -315,7 +315,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```🔥 XBOT-REMIX 🔥\n☠️BERHASIL DIAKTIFKAN☠️```")
+    await bot.send_message(BOTLOG_CHATID, "```🔥 XMOD-REMIX 🔥\n☠️BERHASIL DIAKTIFKAN☠️\n☢️MOD BY : @skuyxans```")
     return
 
 with bot:
@@ -386,7 +386,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("I'm [XBOT-REMIX](https://github.com/X-Newbie/XBot-Remix) modules helper...\nplease make your own bot, don't use mine 😋")
+                await event.reply("I'm [XMOD-REMIX](https://github.com/natxanss/XBot-Remix) modules helper...\nplease make your own bot, don't use mine 😋")
             else:
                 await event.reply(f"`Hey there {ALIVE_NAME}\n\nI work for you :)`")
 
@@ -400,7 +400,7 @@ with bot:
                 result = builder.article(
                     "Please Use Only With .help Command",
                     text="{}\nTotal loaded Modules: {}\n               \n🖥 **Main Menu** 🖥\n".format(
-                        "🔥XBOT-REMIX🔥 modules helper",
+                        "🔥XMOD-REMIX🔥 modules helper",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -408,7 +408,7 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "🔥XBOT-REMIX🔥 Helper",
+                    "🔥XMOD-REMIX🔥 Helper",
                     text="List of Modules",
                     buttons=[],
                     link_preview=True)
@@ -420,7 +420,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "GitHub Repo",
-                                "https://github.com/X-Newbie/XBot-Remix"),
+                                "https://github.com/natxanss/XBot-Remix"),
                             custom.Button.url(
                                 "Support",
                                 "www.pornhub.com")],
