@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="XBOT VERSION" src="https://img.shields.io/badge/XBOT%20VERSION-4.+-brightgreen"/>
+    <img alt="XMOD VERSION" src="https://img.shields.io/badge/XBOT%20VERSION-4.+-brightgreen"/>
     <img alt="BUILD IN" src="https://img.shields.io/badge/BUILD%20-Last Day-brightgreen"/>
     <a href="https://travis-ci.com/X-Newbie/XBot-Remix.svg?branch=x-sql-extended" /></a>
     <a href="https://app.codacy.com/gh/X-Newbie/XBot-Remix/dashboard"> <img src="https://img.shields.io/codacy/grade/a8f0747a964e4712818a28d2a7f4edd3?color=blue&logo=codacy&style=for-the-badge" alt="Codacy" /></a>
@@ -60,7 +60,7 @@ wget https://raw.githubusercontent.com/natxanss/XBot-Remix/x-sql-extended/Getstr
 ## <p align="center">Deploy to Heroku Methods</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/X-Newbie/XBot-Remix/tree/x-sql-extended"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/natxanss/XBot-Remix/tree/x-sql-extended"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
