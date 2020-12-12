@@ -290,7 +290,7 @@ CMD_HELP.update({
     "`.sysd`\
 \nUsage: Shows system information using neofetch.\
 \n\n`.alive|on`\
-\nUsage : Show ur default theme
+\nUsage: Show ur default theme.\
 \n\n`.botver`\
 \nUsage: Shows the userbot version.\
 \n\n`.pip` <module(s)>\
