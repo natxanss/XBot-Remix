@@ -37,7 +37,7 @@
 ### Or Run on your terminal
 
 ```
-wget https://raw.githubusercontent.com/X-Newbie/XBot-Remix/x-sql-extended/Getstring.sh && bash Getstring.sh
+wget https://raw.githubusercontent.com/natxanss/XBot-Remix/x-sql-extended/Getstring.sh && bash Getstring.sh
 ```
 <br>
 
