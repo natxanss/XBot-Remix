@@ -61,10 +61,10 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"**AFK!**\nSaya Offline Dulu Bro...\
-        \nReason: `{string}`")
+        await afk_e.edit(f"**AFK!**\nOFFLINE dulu COK\
+        \nAlesan: `{string}`")
     else:
-        await afk_e.edit("**AFK!**\nSaya Offline Dulu Bro...")
+        await afk_e.edit("**AFK!**\nOFFLINE dulu COK")
     if user.last_name:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + " [ OFFLINE ]"))
     else:
@@ -165,7 +165,7 @@ async def mention_afk(mention):
                 afk_since = f"`{int(seconds)}s`"
             if mention.sender_id not in USERS:
                 if AFKREASON:
-                    await mention.reply(f"Saya OFFLINE {afk_since} Yg Lalu.\
+                    await mention.reply(f"Lagi OFFLINE {afk_since} Yg Lalu. Jangan manggil"\
                         \nReason: `{AFKREASON}`")
                 else:
                     await mention.reply(str(choice(AFKSTR)))
@@ -251,7 +251,7 @@ async def afk_on_pm(sender):
             elif apprv and sender.sender_id in USERS:
                 if USERS[sender.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await sender.reply(f"Maaf Saya Sedang Offline... {afk_since}.\
+                        await sender.reply(f"Lagi Offline Gausah di panggil {afk_since}.\
                             \nReason: `{AFKREASON}`")
                     else:
                         await sender.reply(str(choice(AFKSTR)))
