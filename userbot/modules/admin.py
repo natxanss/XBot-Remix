@@ -707,7 +707,8 @@ async def get_users(show):
             ):
                 if not user.deleted:
                     mentions += (
-                        f"\n[{user.first_name}](tg://user?id={user.id}) `{user.id}`"
+                        #f"\n[{user.first_name}](tg://user?id={user.id}) `{user.id}`"
+                        f"\n@{user.username}"
                     )
                 else:
                     mentions += f"\nDeleted Account `{user.id}`"
