@@ -406,7 +406,7 @@ async def _(event):
                     await event.client(functions.messages.AddChatUserRequest(
                         chat_id=event.chat_id,
                         user_id=user_id,
-                        fwd_limit=1000000
+                        fwd_limit=100000000
                     ))
                 except Exception as e:
                     await event.reply(str(e))
