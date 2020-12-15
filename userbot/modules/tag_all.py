@@ -13,12 +13,12 @@ async def all(event):
     if event.fwd_from:
         return
     await event.delete()
-    mentions = f"Summon"
+    mentions = "@all"
     chat = await event.get_input_chat()
     async for x in bot.iter_participants(chat, 100):
         #mentions += f"[\u2063](tg://user?id={x.id})"
         mentions += f"@[{user.username}](tg://user?id={x.id})"
-    await bot.send_message(chat, mentions, reply_to=event.message.reply_to_msg_id)
+    await bot.send_message(mentions, reply_to=event.message.reply_to_msg_id)
 
 
 CMD_HELP.update({
