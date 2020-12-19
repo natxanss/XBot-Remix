@@ -25,11 +25,7 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
-MESAG = (
-    str(CUSTOM_PMPERMIT)
-    if CUSTOM_PMPERMIT
-    else "**TeleBot PM security! Please wait for me to approve you. 😊**"
-)
+
 DEF_UNAPPROVED_MSG = (
     "╭━━━━━━━━━━━━━━━━━━━━━╮\n"
     "    SELAMAT DATANG DI\n"
@@ -80,7 +76,7 @@ async def permitpm(event):
         # Use user custom unapproved message
         getmsg = gvarstatus("unapproved_msg")
         if getmsg is not None:
-            UNAPPROVED_MSG = MESAG
+            UNAPPROVED_MSG = getmsg
         else:
             UNAPPROVED_MSG = DEF_UNAPPROVED_MSG
 
@@ -110,9 +106,9 @@ async def permitpm(event):
 
             if COUNT_PM[event.chat_id] > 4:
                 await event.respond(
-                    "`You were spamming my PM, which I didn't like.`\n"
-                    "`I Wouldn't let you to chat me again until further notice`\n"
-                    "`Bye`"
+                    "**Maaf kamu telah melakukan spam sebanyak lebih dari 3 kali**\n"
+                    "**Anda saya block sampai saya kembali**\n"
+                    "**Maaf**"
                 )
 
                 try:
@@ -164,7 +160,7 @@ async def auto_accept(event):
         # Use user custom unapproved message
         get_message = gvarstatus("unapproved_msg")
         if get_message is not None:
-            UNAPPROVED_MSG = MESAG
+            UNAPPROVED_MSG = get_message
         else:
             UNAPPROVED_MSG = DEF_UNAPPROVED_MSG
 
@@ -239,7 +235,7 @@ async def approvepm(apprvpm):
     # Get user custom msg
     getmsg = gvarstatus("unapproved_msg")
     if getmsg is not None:
-        UNAPPROVED_MSG = MESAG
+        UNAPPROVED_MSG = getmsg
     else:
         UNAPPROVED_MSG = DEF_UNAPPROVED_MSG
 
