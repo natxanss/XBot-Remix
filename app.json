@@ -52,6 +52,10 @@
       "description": "Get this value from http://antiddos.systems! Please do not steal",
       "required": false
     },
+    "CUSTOM_PMPERMIT": {
+    "description": "The message that appears when someone PM's you. Leave it as such for default message.",
+    "value": "Do not spam here, else you will be blocked automatically."
+    },
     "GENIUS_ACCESS_TOKEN": {
       "description": "Client Access Token from https://genius.com/api-clients.",
       "required": false
