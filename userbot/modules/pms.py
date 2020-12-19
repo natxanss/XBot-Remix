@@ -28,7 +28,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 MESAG = (
     str(CUSTOM_PMPERMIT)
     if CUSTOM_PMPERMIT
-    else "`TeleBot PM security! Please wait for me to approve you. 😊"
+    else "**TeleBot PM security! Please wait for me to approve you. 😊**"
 )
 DEF_UNAPPROVED_MSG = (
     "╭━━━━━━━━━━━━━━━━━━━━━╮\n"
