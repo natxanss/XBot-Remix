@@ -19,7 +19,6 @@ from userbot import (
     LOGS,
     PM_AUTO_BAN,
     ALIVE_NAME,
-    CUSTOM_PMPERMIT,
 )
 from userbot.events import register
 
