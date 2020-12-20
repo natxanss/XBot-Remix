@@ -50,7 +50,7 @@ else
 fi
 
 echo -e "\nUpgrading python pip\n"
-pip3 install --upgrade pip setuptools
+pip3 install --upgrade pip
 echo -e "\nInstalling telethon...\n"
 pip3 install telethon
 sleep 2
