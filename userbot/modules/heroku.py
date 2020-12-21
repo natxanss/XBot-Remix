@@ -182,10 +182,10 @@ async def dyno_usage(dyno):
                 "  ✙ **Dyno Usage:** ✙\n"
                 f" `Penggunaan dyno` **{app.name}**\n"
                 f"┏━━━━━━━━━━━━━━━━━━━━━┓\n"
-                f"┠ ●`[{AppHours}]` **Jam** ●`[{AppMinute}]` **Menit** ●`[{AppPrecentage}]`%"
+                f"┠ ●`{AppHours}` **Jam** ●`{AppMinute}` **Menit** ●`{AppPrecentage}`%"
                 "\n●━━━━━━━━━━━━━━━━━━━━━━●\n"
                 "┃`Sisa Dyno bulan ini:`\n"
-                f"┠ ●`[{hours}]` **Jam** ●`[{minutes}]` **Menit** ●`[{percentage}]` %"
+                f"┠ ●`{hours}` **Jam** ●`{minutes}` **Menit** ●`{percentage}` %"
                 "\n┗━━━━━━━━━━━━━━━━━━━━━┛\n"
                 " ✙ `Mod By :` @skuyxans ✙"
             )
